@@ -1,0 +1,93 @@
+// @media (max-width:1230px){
+//     .header {
+//         padding: 28px 60px;   
+//     }
+
+// }
+// @media (max-width:1024px){
+//     .header {
+//         padding: 28px 16px;
+//     }
+// }
+// @media (max-width:767px){
+//     .header{
+//         display: none;
+//     }
+//     .moblie-header {
+        
+//         padding: 16px 0;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+    
+//         .list-btn {
+//             color: #fff;
+//             position: relative;
+//             height: 23px;
+//             transform: rotate(0deg);
+//             transform-origin: center center;
+//             transition: transform 0.75s cubic-bezier(.645, .045, .355, 1);
+//             width: 34px;
+    
+//             &::before,
+//             &::after {
+//                 background-color: currentColor;
+//                 content: "";
+//                 height: 1px;
+//                 position: absolute;
+//                 transform: translateZ(0) rotate(0deg);
+//                 transform-origin: center center;
+//                 transition: transform 0.75s cubic-bezier(.645, .045, .355, 1);
+//                 width: 18px;
+//             }
+    
+//             &::before {
+//                 top: 8px;
+//                 left: 8px;
+//             }
+    
+//             &::after {
+//                 top: 14px;
+//                 left: 8px;
+//             }
+//         }
+//     }
+//     .hambuger-wrapper{
+//         display: none;
+//         z-index: 150;
+//         overflow: hidden;
+//         background:red;
+//         .list-btn {
+            
+//             color: #fff;
+//             position: relative;
+//             height: 23px;
+//             transform: rotate(0deg);
+//             transform-origin: center center;
+//             transition: transform 0.75s cubic-bezier(.645, .045, .355, 1);
+//             width: 34px;
+    
+//             &::before,
+//             &::after {
+//                 background-color: currentColor;
+//                 content: "";
+//                 height: 1px;
+//                 position: absolute;
+//                 transform: translateZ(0) rotate(0deg);
+//                 transform-origin: center center;
+//                 transition: transform 0.75s cubic-bezier(.645, .045, .355, 1);
+//                 width: 18px;
+//             }
+    
+//             &::before {
+//                 top: 8px;
+//                 left: 8px;
+//             }
+    
+//             &::after {
+//                 top: 14px;
+//                 left: 8px;
+//             }
+//         }
+//     }
+// }
