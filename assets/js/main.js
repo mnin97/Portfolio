@@ -64,6 +64,34 @@ introTextMotion.from(".works .item",{
 
 
 
+const introText2 = new SplitType('.my-project .text', { types: 'words, chars' });
+
+const introTextMotion2 = gsap.timeline({
+  paused: true
+});
+
+introTextMotion2.from(".my-project .char", {
+  yPercent: 100,
+  stagger: {
+    from: "random",
+    each: 0.1,
+  }
+}, 'a')
+.from(".my-project .headline .num", {
+  opacity: 0
+}, 'a+=0.5')
+.from(".my-project .desc", {
+  opacity: 0
+}, 'a+=0.5');
+
+
+ScrollTrigger.create({
+  trigger: '.my-project',
+  start: 'top 80%', 
+  onEnter: () => introTextMotion2.play()
+});
+
+
 
 gsap.to(".header", {
     scrollTrigger: {
