@@ -277,6 +277,27 @@
     position: relative;
     z-index: 1;
     background: #000;
+    .headline{
+        font-size: 109px;
+        display: inline-block;
+        position: relative;
+        color: #fff;
+        .text{
+            display: block;
+            overflow: hidden;
+        }
+        .num{
+            
+            position: absolute;
+            top: 0;right: 0;
+            font-size: 30px;
+            transform: translateX(100%);
+         
+        }
+    }
+   
+
+    
     @include desktop{
         padding: 100px 50px;
     }

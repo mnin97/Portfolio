@@ -823,6 +823,24 @@ body.hidden {
   z-index: 1;
   background: #000;
 }
+.my-project .headline {
+  font-size: 109px;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+.my-project .headline .text {
+  display: block;
+  overflow: hidden;
+}
+.my-project .headline .num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
 @media (max-width: 1024px) {
   .my-project {
     padding: 100px 50px;
