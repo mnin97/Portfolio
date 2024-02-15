@@ -80,10 +80,12 @@ introTextMotion2.from(".my-project .char", {
 .from(".my-project .headline .num", {
   opacity: 0
 }, 'a+=0.5')
-.from(".my-project .desc", {
-  opacity: 0
-}, 'a+=0.5');
-
+// .from(".my-project .desc", {
+//   opacity: 0
+// }, 'a+=0.5')
+// .from(".my-project .desc span",{
+//     opacity:0
+// },'a+=0.5')
 
 ScrollTrigger.create({
   trigger: '.my-project',

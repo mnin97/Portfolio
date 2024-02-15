@@ -304,13 +304,11 @@
     @include mobile{
         padding: 50px 20px;
     }
-    .desc{
-        
+    .desc{        
         font-size: 20px;
         line-height: 1.7;
         position: relative;
         color: #fff;
-        // font-family: $font-point;
         @include mobile{
             font-size: 14px;
             word-break: keep-all;
