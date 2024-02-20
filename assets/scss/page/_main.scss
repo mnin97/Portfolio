@@ -282,6 +282,9 @@
         display: inline-block;
         position: relative;
         color: #fff;
+        @include mobile{
+            font-size: 70px;
+        }
         .text{
             display: block;
             overflow: hidden;
@@ -325,6 +328,9 @@
         .arrow-icon{
             display: inline-block;
             height: 10px;
+            @include mobile{
+                display: none;
+            }
             .arrow{
                
                 svg{

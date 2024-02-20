@@ -341,22 +341,3 @@ gsap.from(".footer-intro .left", {
 });
 
 
-$(".moblie-header .hambuger-btn").on("click", function () {
-    $(this).toggleClass("active");
-    $(".moblie-side-nav").toggleClass("on");
-});
-
-// Mobile navigation item click event
-$(".moblie-side-nav .item a").on("click", function (e) {
-    e.preventDefault();
-    var targetSection = $(this).attr("href");
-
-    // Smooth scroll to section function
-    $("html, body").animate({
-        scrollTop: $(targetSection).offset().top
-    }, 2000);
-
-    // Close the mobile navigation (optional)
-    $(".moblie-header .hambuger-btn").removeClass("active");
-    $(".moblie-side-nav").removeClass("on");
-});
